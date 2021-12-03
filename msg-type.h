@@ -1,8 +1,25 @@
 /**
-* Copyright (c) 2018, SOW (https://www.safeonline.world). (https://github.com/RKTUXYN) All rights reserved.
-* @author {SOW}
-* Copyrights licensed under the New BSD License.
-* See the accompanying LICENSE file for terms.
+MIT License
+
+Copyright (c) 2021 Safe Online World Ltd.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 */
 // 4:50 PM 11/27/2021
 // by rajib chy
@@ -152,8 +169,8 @@ namespace sow_itch {
 	// Retail Price Improvement Indicator(RPII). Section 4.7
 	// Identifies a retail interest indication of the Bid, Ask or both the Bid and Ask for Nasdaq-listed securities.
 	const char msg_type_rpii[] = "N";
-  // session event
-  const char msg_type_login_request[] = "L"; // to server
+  	// session event
+  	const char msg_type_login_request[] = "L"; // to server
 	const char msg_type_login_accepted[] = "A"; // from server
 	const char msg_type_login_rejected[] = "J"; // from server
 	const char msg_type_logout_request[] = "O"; // to server
